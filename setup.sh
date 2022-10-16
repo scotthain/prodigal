@@ -1,1 +1,1 @@
-sudo yum install wget xz bzip2 unzip -y
+sudo apt install wget xz bzip2 unzip -y
