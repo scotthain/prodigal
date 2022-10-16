@@ -6,7 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Run a multi-line script
+    - uses: actions/checkout@v3
+    - name: Run another test!
       run: |
-        setup.sh
+        whoami
+        ./setup.sh
