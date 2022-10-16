@@ -5,7 +5,6 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: ubuntu:16
     steps:
     - uses: actions/checkout@v2
     - name: Run a multi-line script
